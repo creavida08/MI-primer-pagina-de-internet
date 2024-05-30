@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Explorando la Animación 2D</title>
+  </head>
+  <body>
+  <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+  <!--========================================================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-1">Explorando la Animación 2D</p>
+    </header>
+
+    <nav  class="navbar navbar-expand-lg navbar-light p-3"  id="menu">
+        <div class="container">
+           <!--<a class="navbar-brand" href="#">
+             <span class="fs-5 text-primary fw-bold">La Animación 2D</span>
+          </a>-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#historia">Historia de la animación</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link"href="#técnicas">Técnicas de animación tradicional</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#software">Software de animación 2D</a>
+              </li>
+
+               <li class="nav-item">
+                <a class="nav-link"href="#software">Ejemplos destacados</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link"href="#consejos">Consejos para aspirantes a animadores</a>
+              </li>
+
+            </ul>
+
+            <!--
+            <form class="d-flex">
+              <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+              <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+            </form>-->
+
+          </div>
+
+        </div>
+      </nav>
+
+    <!--========================================================== -->
+                        <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+   
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="./img/slide1.jpg" class="d-block w-100" alt="">
+          </div>
+          
+ 
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+          </div>
+ 
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>    
+    
+        
+     
+    <!--========================================================== -->
+                        <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+    <section class="d-flex flex-column justify-content-c align-items-center pt-5  text-body w-75 m-auto" id="intro">
+    <h1> <span class="text-primary">!Bienvenido a nuestro sitio web sobre animación 2D!.<span/></h1> 
+    <h2 class="p-3 fs-4 border-top border-3"> <p id="parrafo_ppal"> Aquí encontrarás todo lo relacionado con este apasionante mundo del arte animado. Desde los orígenes históricos de la animación tradicional hasta los software y técnicas más avanzadas utilizadas en la actualidad. Exploraremos ejemplos destacados de animación 2D, así como consejos y recursos útiles para aquellos que aspiran a convertirse en animadores. Sumérgete en este fascinante viaje a través de la animación 2D y descubre la magia detrás de cada dibujo en movimiento.</p> </h2>
+            
+     
+    </section>
+
+   <!--========================================================== -->
+                        <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+
+<section>
+    <!-- <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        -->
+            
+
+            <div>
+                <h2 class="fs-5 mt-4 px-4 pb-1 text-body w-75 m-auto " id="historia"> <b> Historia de la animación 2D </b> </li></h2>
+               
+                <p class="d-flex flex-column justify-content-c align-items-center pt-5  text-body w-75 m-auto" id="intro">Uno de los primeros precursores de la animación fue el propio arte de contar historias. 
+
+               
+                Las pinturas rupestres por ejemplo, que representaban historias de caza y vida cotidiana, y se usaban para enseñar a las generaciones más jóvenes sobre la historia y las tradiciones de su cultura.
+
+                Otro precursor temprano de la animación fue el arte de los títeres. Los títeres se han utilizado durante miles de años para contar historias y representar obras de teatro. Los antiguos egipcios, griegos y romanos usaban títeres en su teatro, y muchos de los mismos principios de animación, como el uso del movimiento y la acción para contar una historia, se pueden ver en estas primeras representaciones de títeres.  
+
+            <img src= "https://koncep.to/wp-content/uploads/2023/02/Steamboat-willie.webp"width="350" height="320"/>
+            <a target="_blank" href="https://www.esdip.com/blog-escuela-de-arte/historia-de-la-animacion-los-primeros-pasos"/>Leer más acerca de la historia <a/></p></p>
+            <!--</div> -->
+
+             <h2 class="fs-5 mt-4 px-4 pb-1 text-body w-75 m-auto " id="técnicas"> <b>Técnicas de animación tradicional</b> </li></h2>
+                <p  class="d-flex flex-column justify-content-c align-items-center pt-5  text-body w-75 m-auto" id="intro">Animación en 2D - La animación tradicional - Rotoscopia - Cut-Out - Pintura animada - Motion Graphics - Stop Motion - Claymation - Printed Motion - Pixilación - Computer Generated Image (CGI) - Técnicas  híbridas de la animación.
+
+            <center><img src="https://www.academiataure.com/wp-content/uploads/2022/02/animacion.webp"/>
+            <a target="_blank" href="https://www.esdip.com/blog-escuela-de-arte/historia-de-la-animacion-los-primeros-pasos"/>> <br>Leer más acerca de la historia <a/></p><br>
+
+
+             <h2 class="fs-5 mt-4 px-4 pb-1 text-body w-75 m-auto " id="software"> <b>Software de animación 2D</b> </li></h2>
+
+
+            <ul> 
+            <li> Autodesk Mayai</li>
+            <li> Adobe Animate.
+            <li> Adobe Character Animator.</li>
+            <li> Cinema 4D.</li>
+            <li> Toon Boom Harmony.</li>
+            <li> <a target="_blank" href="https://www.skillshare.com/es/blog/los-nueve-mejores-programas-de-animacion-para-principiantes-y-avanzados/"/>Entre otros <a/>  </li>
+            </ul>
+            <center><img src="https://gegcorporation.com/storage/courses/course-TaVeli-2.jpeg"  height="380" />  
+
+
+                <h2 class="fs-5 mt-4 px-4 pb-1 text-body w-75 m-auto " id="ejemplos"> <b>Ejemplos destacados</b> </li></h2>
+                <p  class="d-flex flex-column justify-content-c align-items-center pt-5  text-body w-75 m-auto" id="intro">
+                 La animación al día de hoy, es una gran industria tanto en el cine como en la publicidad de las empresas generando billones de dolares de dividendos a la industria de este arte, presentando un auge y necesidad en la sociedad y que se ha especializado creando grandes multinaciones como:</p>
+                <ul>
+                    <li>Walt Disney Animation Studios </li>                   
+                    <li>Pixar.</li>
+                    <li>Studio Ghibli.</li>
+                    <li>DreamWorks Animation.</li>
+                    <li>Sony Pictures Animation.</li>
+
+                </ul>
+                 <div class="mt-5 text-center">
+                  <img id="img-equipo" src="https://lovtechnology.com/wp-content/uploads/2022/02/Lista-de-los-9-Principales-Estudios-de-Animacion-y-Efectos-Visuales.webp">
+                    </div>
+
+
+                <section class="d-flex flex-column justify-content-c align-items-center pt-5  text-body w-75 m-auto" id="intro">
+                 
+                    <h2 class="fs-5 mt-4 px-4 pb-1 text-body w-75 m-auto " id="consejos"> <b>Consejos para aspirantes a animadores</b> </li></h2>
+              <ul class="text-justify">
+                        <li><em>No entres si no estás dispuesto a darlo todo </em> </li>
+                        <p>El mundo de los VFX y la animación digital no es tan bonito como parece. Sé que es un poco brusco empezar así está sección, pero bajo mi punto de vista, es mejor asumir esta premisa . Es un trabajo que mezcla mucho el arte con la técnica y requiere de muchas horas para llevarlo a cabo. Por lo que, para llevar bien todo esto, creo que lo que realmente requiere es pasión. Si de verdad te gusta esta profesión y estás dispuesto a dar lo máximo de ti para triunfar en la industria, ¡ánimo, a por ello! Para sufrir mejor ni lo intentes.</p>
+                        <li> <em>Esta no es una profesión corriente </em> </li>
+                        <p>Te enfrentas a problemas muy técnicos como a otros totalmente artísticos y creativos y tienes que encontrar el equilibrio entre ellos para que los proyectos sean viables. Te metes en una profesión que, además, es relativamente nueva y los “workflows” no están para nada estandarizados, cada estudio puede cambiar totalmente sus metodologías y deberás adaptarte a ellas.
+
+                        Finalmente, estamos viviendo una explosión la industria y cada vez se hacen cosas más impresionantes, por diferente o exigente que sea el sector, no deja de ser un reto precioso poder pertenecer al mismo. </p>
+                        <li><em>Sigue formándote. No te conformes con lo que sabes</em></li>
+                        <p>Nunca dejes de estudiar y de renovarte. Cuando mis socios y yo estábamos estudiando, el tiempo de escuela era la punta de iceberg comparado con el tiempo que dedicábamos trabajando en casa peleándonos con la máquina. Una vez terminamos nuestra formación, estuvimos otros dos años más desarrollando nuestro potencial antes de lanzarnos a trabajar. Y a día de hoy no dejamos de actualizarnos y estudiar para poder seguir el ritmo al que se mueve la industria del CG. Así que por muy bueno que creas ser, las tecnologías están constantemente avanzando y es lo mismo que deberías hacer tú. </p>
+                        <li><em>No tengas miedo a mostrar tu potencial</em></li>
+                        <p>Es mejor enseñar tu trabajo y saber que quizás no sea tan bueno como crees, entender en qué puntos tienes que mejorar ya que dejándolo metido en un cajón, no te servirá para aprender. Por otro lado, tampoco sabes cuándo te vas a encontrar con una reacción mucho mejor de la que esperabas, ¡esto va mucho de gustos y para gustos los colores!.</p>
+                        <li> <em>Haz cosas Diferentes</em></li>
+                        <p>lamar la atención es algo que me ha funcionado siempre. Hay quien le cuesta más y quien le cuesta menos. Pero si consigues captar el interés de los demás tienes un punto más a tu favor. En Illusorium es algo que en lo que trabajamos bastante desde que empezamos y sigue funcionando muy bien. Empezamos creando nuestro mundo imaginario y haciendo piezas audiovisuales pequeñas e intentando viralizarlas.</p>
+                </ul>
+                  </div></p> </h2>
+            
+     
+                
+                
+                    
+        </div>
+
+       
+
+
+
+<!--========================================================== -->
+                        <!--FOOTER-->
+<!--========================================================== -->
+
+
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+  <p class="fs-5 px-3  pt-3">Juana's Studios. &copy; Todos Los Derechos Reservados 2024</p>
+  <div id="iconos" >
+        <a href="https://www.instagram.com/creavida08/p/B_Yfmi-Jy7X/"/>creavida08 <i class="bi bi-instagram"></i></a>  
+      
+      <a href="https://www.tiktok.com/@juana_cordoba"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+  <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+</svg>
+      <a href="https://www.facebook.com/JuanaCordobaM/"><i class="bi bi-facebook"></i></a>
+      
+  </div>
+</footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
